@@ -1,0 +1,85 @@
+@font-face{
+    font-family: "Charmonman";
+    font-weight: 400;
+    src: url(../fonts/Charmonman/Charmonman-Regular.ttf) 
+}
+
+p {
+    box-sizing: border-box;
+    background-color: yellow;
+    border: 1px solid black;
+    margin-right: 20px;
+    display: inline-block;
+    width: 30%;
+}
+
+p.second {
+    visibility: hidden;
+    display: none;
+}
+
+h1 {
+    width: 960px;
+    margin: 50px auto;
+    background-color: green;
+    text-align: center;
+    padding: 50px 0;
+    color: lightpink;
+    font-family: "Charmonman";
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 20px 40px;
+}
+
+
+/* p:last-of-type {
+    margin: 0;
+} */
+
+/* p:first-child, p:last-child {
+border-style: dashed;
+border-color: red;
+padding: 50px;
+}
+
+p.second {
+    border-color: green;
+    border-style: solid;
+    padding-top: 50px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+p:first-child{
+    width: 300px;
+    margin: 50px;
+}
+
+p:last-child {
+    width: 200px;
+    margin-left: 100px;
+} */
+
+/* p {
+    border: 5px solid red;
+}
+
+p.second {
+    margin-top: 20px;
+}
+
+img {
+    margin: 20px auto;
+    display: block;
+    
+}
+
+div {
+    background: blue;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    -webkit-margin-collapse: separate;
+    -moz-margin-collapse: separate;
+} */

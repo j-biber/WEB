@@ -1,0 +1,9 @@
+.first {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.second {
+    text-decoration: line-through;
+    text-transform: lowercase;
+}

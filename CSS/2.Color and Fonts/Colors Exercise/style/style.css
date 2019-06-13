@@ -1,0 +1,26 @@
+#first{
+    color: darkturquoise;
+    background-color: rgb(216, 112, 147);
+    opacity: 0.5;
+}
+
+#second{
+    color: rgb(0, 206, 209);
+    background-color: rgba(21, 163, 99, 0.75);
+}
+
+#third{
+    color:#00ced1;
+    background-color: #9df2cc
+
+}
+div {
+    background-color:red;
+}
+#opacity {
+    opacity: 0.75;
+}
+
+#rgba {
+    background-color: rgba(255,0,0, 0.75);
+}

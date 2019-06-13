@@ -1,0 +1,21 @@
+@mixin generalStyleAndReset() {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@mixin clearFix () {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+@mixin asideUl ($float){
+    background-color: $asideColor;
+    width: $asideWidth;
+    float: $float;
+    padding: 20px 10px;
+    margin: 2px;
+}

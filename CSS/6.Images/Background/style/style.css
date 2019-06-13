@@ -1,0 +1,32 @@
+/* 
+------IMAGE-PATTERN-------
+body {
+    color: black;
+    background-image: url(../images/patterns/pattern4.jpg);
+    background-attachment: fixed;
+} */
+
+.container {
+    box-sizing: border-box;
+    width: 960px;
+    margin: 20px auto;
+    border: 1px solid rgb(226, 208, 180);
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.30);
+}
+
+p {
+    text-align: justify;
+}
+
+/* -----IMAGE COVER------ */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(226, 208, 180);
+    background-image: url(../images/rails.jpg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-attachment: fixed;
+    background-size: cover;
+}

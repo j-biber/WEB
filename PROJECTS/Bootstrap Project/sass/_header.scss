@@ -1,0 +1,85 @@
+.fontSet {
+    font-size: 0.8em;
+    color: white;
+    text-transform: uppercase;
+}
+
+header {
+    background-color: $blueish;
+
+    nav.navbar {
+        background-color: $blueish;
+
+        a {
+            @extend .fontSet;
+            font-weight: 900;
+
+            &.navbar-brand {
+                @media (min-width: 1200px) {
+                    font-size: 1.8em;
+                }
+            }
+        }
+
+        button {
+            @extend .fontSet;
+            background-color: $greenish;
+            font-weight: 700;
+
+            @media (min-width: 768px) {
+                background-color: $blueish;
+                border: 1px solid white;
+            }
+
+            img {
+                width: 1em;
+                height: 1em;
+            }
+        }
+    }
+
+    #headerBg {
+        background-color: $greenish;
+        padding-top: 30px;
+
+        @media (min-width: 768px) {
+            padding-top: 120px;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto 30px;
+            width: 160px;
+
+            @media (min-width: 768px) {
+                width: 250px;
+            }
+        }
+
+        h1 {
+            color: white;
+            text-transform: uppercase;
+            font-weight: 900;
+            text-align: center;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+
+            @media (min-width: 768px) {
+                font-size: 4.5em;
+
+            }
+        }
+
+        p {
+            color: white;
+            text-transform: capitalize;
+            text-align: center;
+            font-size: 0.8em;
+            padding-bottom: 30px;
+            @media (min-width: 768px) {
+                font-size: 1.6em;
+                padding-bottom: 80px
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+body {
+    background-color: lightgray;
+    width: 900px;
+    margin: 200px;
+    }
+    
+    h1 {
+    color: #bdb76b;
+    text-align: center;
+    }
+
+    div {
+        background-color:bisque;
+        margin: 3px;
+        padding: 1px;
+    }
+    
+    ul {
+        background: #bdb76b;
+        color: darkcyan;
+    }
+
+    .active {
+        background-color: lightskyblue;
+    }

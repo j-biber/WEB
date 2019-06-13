@@ -1,0 +1,16 @@
+a {
+    text-decoration: none;
+    color: black
+}
+
+.bottom-border {
+    border-bottom: 2px solid black;
+}
+
+.font-color {
+    color: darkgoldenrod;
+}
+
+.background {
+    background-color: aqua;
+}

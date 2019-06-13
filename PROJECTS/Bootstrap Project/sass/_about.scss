@@ -1,0 +1,27 @@
+.about {
+    color: white;
+    background-color: $greenish;
+    padding: 50px 0;
+
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+
+    a {
+        border: 1px solid white;
+        border-radius: 1px;
+        color: white;
+        padding: 10px;
+        text-transform: capitalize;
+        margin: 0 auto;
+        display: block;
+        width: fit-content;
+        text-decoration: none;
+    }
+
+    .row {
+        margin: 0 auto;
+    }
+}

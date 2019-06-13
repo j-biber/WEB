@@ -1,0 +1,20 @@
+body {
+  width: 960px; }
+
+.border, p:nth-of-type(1), p:nth-of-type(2), p:nth-of-type(3) {
+  border: 2px solid;
+  width: 500px; }
+
+p:nth-of-type(1) {
+  border-color: red;
+  width: 600px; }
+
+p:nth-of-type(2) {
+  border-color: blue;
+  width: 700px; }
+
+p:nth-of-type(3) {
+  border-color: green;
+  width: 480px; }
+
+/*# sourceMappingURL=style.css.map */

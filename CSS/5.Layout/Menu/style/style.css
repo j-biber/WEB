@@ -1,0 +1,56 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(223, 223, 223);
+}
+
+.home {
+    background-color: rgb(209, 209, 209);
+}
+
+.main {
+    background-color: rgb(243, 178, 56);
+    width: 960px;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.main>li {
+    display: inline;
+    margin: 10px 10px;
+    padding: 10px;
+}
+
+.main>li:hover {
+    background-color: white;
+}
+
+.main>li:hover .sub {
+    display: block;
+}
+
+.sub {
+    list-style: none;
+    width: 200px;
+    position: absolute;
+    left: 350px;
+    top: 57px;
+    background-color: white;
+    display: none;
+}
+
+.sub li {
+    padding: 10px;
+}
+
+li>.sub>li:hover {
+    background-color: rgb(243, 178, 56);
+}
+
+.sub li:nth-of-type(even){
+    background-color: rgb(223, 223, 223);
+}

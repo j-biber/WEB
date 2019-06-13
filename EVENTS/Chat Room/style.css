@@ -1,0 +1,25 @@
+body {
+    background-color: lightgray;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 90vh;
+    width: 50vw;
+    margin: auto;
+}
+
+.chat-box {
+    min-height: 80vh;
+    background-color: white;
+    margin: 10px 0;
+}
+
+.chat-form {
+    margin: 10px 0;
+}
+
+input {
+    width: 70%;
+}

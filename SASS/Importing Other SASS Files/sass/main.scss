@@ -1,0 +1,60 @@
+@import "variables";
+@import "mixins";
+
+
+* {
+    @include generalStyleAndReset();
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    display: block;
+}
+
+nav {
+    background-color: $navColor;
+    margin-bottom: 1px;
+    ul {
+        float:right;
+    }
+    &:after {
+       @include clearFix();
+    }
+    li{
+        display: inline;
+        color: white;
+        padding: 5px 10px;
+    }
+}
+
+img{
+    width: $maxWidth;  
+}
+
+aside {
+    ul {
+    @include asideUl(right);
+    }
+    li  {
+        border-bottom: 1px solid;
+        list-style: none;
+        padding: 10px;
+    }
+}
+
+article {
+    float: left;
+    width: 300px;
+    margin: 10px;
+    &:nth-of-type(3){
+        clear: left;
+    }
+}
+
+footer {
+    background-color: $footerColor;
+    color: white;
+    width: $maxWidth;
+    clear: both;
+}

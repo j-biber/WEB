@@ -1,0 +1,68 @@
+.first div,
+.second div,
+.third div {
+    width: 200px;
+    height: 200px;
+}
+
+.first,
+.second,
+.third {
+    width: 800px;
+    border-bottom: 1px solid black;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+div div:first-of-type {
+    background-color: red;
+}
+
+div div:nth-of-type(2) {
+    background-color: goldenrod;
+}
+
+div div:last-of-type {
+    background-color: darkblue;
+}
+
+.second div {
+    position: relative;
+}
+
+.second div:nth-of-type(2) {
+    bottom: 100px;
+    left: 100px;
+}
+
+.second div:last-of-type {
+    bottom: 200px;
+    left: 200px;
+}
+
+.third {
+    position: relative;
+    height: auto;
+    border: none;
+}
+
+.third div {
+    position: absolute;
+}
+
+.third div:first-of-type {
+    right: 0;
+    top: 10px;
+    z-index: 2;
+}
+
+.third div:nth-of-type(2) {
+    top: 110px;
+    right: 100px;
+    z-index: 1;
+}
+
+.third div:last-of-type {
+    top: 210px;
+    right: 200px;
+}

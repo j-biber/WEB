@@ -1,0 +1,221 @@
+@font-face {
+  font-family: 'Lato';
+  src: url(../assets/fonts/Lato-Black.ttf);
+  font-style: normal;
+  font-weight: 900; }
+@font-face {
+  font-family: 'Lato';
+  src: url(../assets/fonts/Lato-BlackItalic.ttf);
+  font-style: italic;
+  font-weight: 900; }
+@font-face {
+  font-family: 'Lato';
+  src: url(../assets/fonts/Lato-Bold.ttf);
+  font-style: normal;
+  font-weight: 700; }
+@font-face {
+  font-family: 'Lato';
+  src: url(../assets/fonts/Lato-BoldItalic.ttf);
+  font-style: italic;
+  font-weight: 700; }
+@font-face {
+  font-family: 'Lato';
+  src: url(../assets/fonts/Lato-Hairline.ttf);
+  font-style: normal;
+  font-weight: 200; }
+@font-face {
+  font-family: 'Lato';
+  src: url(../assets/fonts/Lato-HairlineItalic.ttf);
+  font-style: italic;
+  font-weight: 200; }
+@font-face {
+  font-family: 'Lato';
+  src: url(../assets/fonts/Lato-Italic.ttf);
+  font-style: italic;
+  font-weight: 400; }
+@font-face {
+  font-family: 'Lato';
+  src: url(../assets/fonts/Lato-Light.ttf);
+  font-style: normal;
+  font-weight: 300; }
+@font-face {
+  font-family: 'Lato';
+  src: url(../assets/fonts/Lato-LightItalic.ttf);
+  font-style: italic;
+  font-weight: 300; }
+@font-face {
+  font-family: 'Lato';
+  src: url(../assets/fonts/Lato-Regular.ttf);
+  font-style: normal;
+  font-weight: 400; }
+.fontSet, header nav.navbar a, header nav.navbar button {
+  font-size: 0.8em;
+  color: white;
+  text-transform: uppercase; }
+
+header {
+  background-color: #2c3e50; }
+  header nav.navbar {
+    background-color: #2c3e50; }
+    header nav.navbar a {
+      font-weight: 900; }
+      @media (min-width: 1200px) {
+        header nav.navbar a.navbar-brand {
+          font-size: 1.8em; } }
+    header nav.navbar button {
+      background-color: #18bc9c;
+      font-weight: 700; }
+      @media (min-width: 768px) {
+        header nav.navbar button {
+          background-color: #2c3e50;
+          border: 1px solid white; } }
+      header nav.navbar button img {
+        width: 1em;
+        height: 1em; }
+  header #headerBg {
+    background-color: #18bc9c;
+    padding-top: 30px; }
+    @media (min-width: 768px) {
+      header #headerBg {
+        padding-top: 120px; } }
+    header #headerBg img {
+      display: block;
+      margin: 0 auto 30px;
+      width: 160px; }
+      @media (min-width: 768px) {
+        header #headerBg img {
+          width: 250px; } }
+    header #headerBg h1 {
+      color: white;
+      text-transform: uppercase;
+      font-weight: 900;
+      text-align: center;
+      font-size: 1.5em;
+      margin-bottom: 20px; }
+      @media (min-width: 768px) {
+        header #headerBg h1 {
+          font-size: 4.5em; } }
+    header #headerBg p {
+      color: white;
+      text-transform: capitalize;
+      text-align: center;
+      font-size: 0.8em;
+      padding-bottom: 30px; }
+      @media (min-width: 768px) {
+        header #headerBg p {
+          font-size: 1.6em;
+          padding-bottom: 80px; } }
+
+.portfolio {
+  padding: 50px 15px;
+  margin: 0 auto; }
+  .portfolio hr {
+    border-top: thick solid #2c3e50; }
+  .portfolio h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900; }
+    @media (min-width: 768px) {
+      .portfolio h2 {
+        font-size: 2.6em; } }
+  .portfolio img {
+    margin: 10px 0; }
+    @media (min-width: 768px) {
+      .portfolio img {
+        padding: 0; } }
+  .portfolio div.container {
+    padding: 0 10px; }
+
+.about {
+  color: white;
+  background-color: #18bc9c;
+  padding: 50px 0; }
+  .about h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900; }
+  .about a {
+    border: 1px solid white;
+    border-radius: 1px;
+    color: white;
+    padding: 10px;
+    text-transform: capitalize;
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+    text-decoration: none; }
+  .about .row {
+    margin: 0 auto; }
+
+.contactme {
+  padding: 50px 0; }
+  .contactme h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900; }
+  .contactme form * {
+    display: block;
+    width: 100%;
+    color: #495057;
+    padding: 30px 10px;
+    border: none;
+    border-bottom: 1px solid #495057; }
+  .contactme #send {
+    width: fit-content;
+    padding: 10px 15px;
+    background-color: #18bc9c;
+    color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: 900; }
+  .contactme hr {
+    border-top: thick solid #2c3e50; }
+
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.8em; }
+  footer section {
+    padding: 20px 0; }
+  footer h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.5em;
+    margin-bottom: 20px; }
+  footer i {
+    border: 2px solid white;
+    padding: 10px 5px;
+    border-radius: 50%;
+    width: 50px;
+    margin: 2px; }
+  footer .copyright {
+    font-size: 0.7em; }
+  footer #thanks {
+    font-size: 0.8em;
+    color: #495057; }
+
+* {
+  font-family: "Lato"; }
+
+.fontSet, header nav.navbar a, header nav.navbar button {
+  font-size: 0.8em;
+  color: white;
+  text-transform: uppercase; }
+
+hr {
+  width: 160px;
+  overflow: visible;
+  /* For IE */
+  padding: 0;
+  border: none;
+  border-top: thick solid white;
+  color: white;
+  text-align: center;
+  border-radius: 2px; }
+  @media (min-width: 768px) {
+    hr {
+      width: 250px; } }
+
+/*# sourceMappingURL=main.css.map */

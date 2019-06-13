@@ -1,0 +1,35 @@
+footer {
+    background-color: $blueish;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.8em;
+
+    section {
+        padding: 20px 0;
+    }
+
+    h2 {
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+
+    i {
+        border: 2px solid white;
+        padding: 10px 5px;
+        border-radius: 50%;
+        width: 50px;
+        margin: 2px;
+    }
+
+    .copyright {
+        font-size: 0.7em;
+    }
+
+    #thanks {
+        font-size: 0.8em;
+        color: $inputText;
+    }
+}

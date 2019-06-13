@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Charmonman";
+  src: url(./fonts/Charmonman/Charmonman-Regular.ttf);
+}
+.second {
+  visibility: hidden;
+}
+
+.third {
+  visibility: hidden;
+}
+
+h1 {
+  width: 960px;
+  text-align: center;
+  font-family: "Charmonman";
+  background-color: black;
+  color: white;
+  -webkit-box-shadow: -16px -9px 63px 52px rgba(0, 0, 0, 0.54);
+  -moz-box-shadow: -16px -9px 63px 52px rgba(0, 0, 0, 0.54);
+  box-shadow: -16px -9px 63px 52px rgba(0, 0, 0, 0.54);
+  border-radius: 15px;
+}

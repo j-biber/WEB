@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Chakra+Petch");
+
+@font-face {
+  font-family: "Mali";
+  font-weight: 400;
+  src: url("../fonts/Mali-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Mali";
+  font-weight: 700;
+  src: url("../fonts/Mali-Bold.ttf");
+}
+
+body {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+span {
+  font-weight: 700;
+  font-style: italic;
+}
+
+#first q {
+  font-family: "Mali";
+}
+
+#second q {
+  font-family: "Chakra Petch";
+}
+
+#third q {
+  font-family: "Charmonman";
+}
+
+#first {
+  font-family: "Chakra Petch", "Courier New", Courier, monospace;
+}
+
+#second {
+  font-family: "Charmonman", "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: oblique;
+}
+
+#third {
+  font-family: "Mali", Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+}

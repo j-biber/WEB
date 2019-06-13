@@ -1,0 +1,33 @@
+@import "variables";
+@import "font";
+@import "header";
+@import "portfolio";
+@import "about";
+@import "contactme";
+@import "location";
+
+* {
+    font-family: "Lato";
+}
+
+.fontSet {
+    font-size: 0.8em;
+    color: white;
+    text-transform: uppercase;
+}
+
+hr {
+    width: 160px;
+    overflow: visible;
+    /* For IE */
+    padding: 0;
+    border: none;
+    border-top: thick solid white;
+    color: white;
+    text-align: center;
+    border-radius: 2px;
+
+    @media (min-width: 768px) {
+        width: 250px;
+    }
+}

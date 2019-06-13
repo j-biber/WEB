@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./vendor/bootstrap-4.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Bootstrap and SASS Project</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-xl container">
+            <div class="container">
+                <a class="navbar-brand" href="#">Bit Student</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">Menu
+                    <img src="./assets/img/portfolio/hamburger-white.svg" alt="icon">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="headerBg">
+            <div class="container">
+                <img src="./assets/img/profile.png" alt="profile image">
+
+                <h1 class="container">bootstrap and sass</h1>
+
+                <hr>
+
+                <p class="container">web developer - graphic artist - user experience designer</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="portfolio container">
+            <h2>portfolio</h2>
+            <hr>
+            <div class="row">
+                <div class=" container col-xs-12 col-md-6 col-lg-4">
+                    <img class="container" src="./assets/img/portfolio/cabin.png" alt="cabin">
+                </div>
+                <div class=" container col-xs-12 col-md-6 col-lg-4">
+                    <img class="container" src="./assets/img/portfolio/cake.png" alt="cake">
+                </div>
+                <div class=" container col-xs-12 col-md-6 col-lg-4">
+                    <img class="container" src="./assets/img/portfolio/circus.png" alt="circus">
+                </div>
+                <div class=" container col-xs-12 col-md-6 col-lg-4">
+                    <img class="container" src="./assets/img/portfolio/game.png" alt="game">
+                </div>
+                <div class=" container col-xs-12 col-md-6 col-lg-4">
+                    <img class="container" src="./assets/img/portfolio/safe.png" alt="safe">
+                </div>
+                <div class=" container col-xs-12 col-md-6 col-lg-4">
+                    <img class="container" src="./assets/img/portfolio/submarine.png" alt="submarine">
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <h2 class="container">about</h2>
+            <hr>
+            <div class="row container">
+                <p class="container col-xs-12 col-lg-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Reiciendis fugit,
+                    voluptates excepturi quam maiores sed ipsa, omnis doloribus eum dolores earum? Ipsam unde illum aut
+                    numquam deleniti ex alias maiores.</p>
+                <p class="container col-xs-12 col-lg-6">Soluta, quia perspiciatis perferendis voluptatum veniam itaque
+                    voluptate
+                    reprehenderit quaerat ad. Tempora sunt qui libero pariatur nobis omnis sed neque? Voluptas officia
+                    suscipit, accusamus tempore veniam dolore provident quibusdam distinctio!</p>
+            </div>
+            <a href="#"><i class="fas fa-info-circle"></i> find out more</a>
+        </section>
+
+        <section class="contactme">
+            <h2>contact me</h2>
+            <hr>
+            <form class="container" action="#">
+                <input type="text" name="name" placeholder="Name">
+                <input type="email" name="email" placeholder="Email">
+                <input type="text" name="phone" placeholder="Phone Number">
+                <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
+                <input id="send" type="button" value="Send">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <section class="location container col-xs-12 col-md-4">
+                    <h2>location</h2>
+                    <div>Centar za obrazovanje</div>
+                    <div>BIT TECHNOLOGY</div>
+                    <div>Nemanjina 4/I, Beograd</div>
+                </section>
+                <section class="aroundweb container col-xs-12 col-md-4">
+                    <h2>around the web</h2>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-google-plus-g"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </section>
+                <section class="details container col-xs-12 col-md-4">
+                    <h2>more details</h2>
+                    <p>We belive that the future of Serbia firmly depends on our ability to scale the number of
+                        individuals
+                        involved in the IT sector. This is why we founded BIT.</p>
+                </section>
+                <section class="copyright container">
+                    <div>Copyright &copy; Bit Student 2019</div>
+                    <div id="thanks">Bit thanks to Star Bootstrap!</div>
+                </section>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="./vendor/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/popper.js@1.14.4/dist/umd/popper.min.js"></script>
+    <script src="./vendor/bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

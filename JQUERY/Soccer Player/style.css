@@ -1,0 +1,33 @@
+body {
+   background-color: bisque;
+}
+
+div {
+    width: 80%;
+    margin: 20px;
+    position: relative;
+}
+
+.background-image {
+    /* position: absolute; */
+    width: 100%;
+}
+
+.player {
+    position: absolute;
+    width: 100px;
+    /* float: left; */
+    top: 0px;
+    left: 0px;
+}
+
+button {
+    width: 70px;
+    background-color: brown;
+    color: plum;
+   border-radius: 3px;
+   border-color: plum;
+position: absolute;
+bottom: 5px;
+right: 5px;
+}

@@ -1,0 +1,407 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../assets/fonts/Roboto-Regular.ttf);
+}
+
+* {
+  font-family: "Roboto";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+a {
+  color: white;
+}
+
+a li {
+  color: white;
+}
+
+hr {
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+  width: 30%;
+  margin: 20px auto 40px;
+}
+hr:after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: white;
+}
+
+h1 {
+  text-align: center;
+  color: gray;
+}
+
+h1 span {
+  color: orange;
+  border: 3px solid gray;
+  border-right: none;
+  padding: 3px 0 3px 6px;
+}
+
+#navTop {
+  width: 90%;
+  margin: 0 auto 30px;
+}
+
+#navTop li {
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+  background-color: rgb(51, 192, 228);
+}
+
+header {
+  background-image: url(../assets/images/banner3.jpg);
+  background-size: cover;
+  text-align: center;
+  padding: 150px 20px;
+}
+
+header p {
+  color: white;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+header a {
+  color: white;
+  background-color: rgb(51, 192, 228);
+  border: none;
+  border-radius: 1em;
+  padding: 10px 30px;
+  margin: 40px auto;
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    float: left;
+    color: white;
+  }
+  h1 span {
+    border: 3px solid white;
+    border-right: none;
+  }
+  #navTop {
+    width: 95%;
+    margin: 0 auto;
+  }
+  #navTop ul {
+    float: right;
+    margin: 30px auto;
+  }
+  #navTop li {
+    display: inline;
+    background: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  #navTop {
+    font-size: 1.2em;
+  }
+  header {
+    padding: 280px 20px;
+    font-size: 1.5em;
+  }
+}
+/* header done for all size */
+section {
+  width: 90%;
+  margin: 20px auto 20px;
+  text-align: left;
+  padding: 10px;
+}
+section h2 {
+  text-align: center;
+}
+
+section article {
+  margin: 20px 0;
+}
+
+article h3 {
+  color: rgb(55, 55, 187);
+  margin: 10px auto;
+  text-transform: capitalize;
+}
+article p {
+  line-height: 2em;
+}
+
+article ul {
+  margin-top: 20px;
+  line-height: 2em;
+}
+article li {
+  list-style: url(../assets/images/arrow_bullet.png) inside;
+  text-transform: capitalize;
+}
+
+section img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  section article {
+    float: left;
+  }
+  .width {
+    width: 50%;
+    display: inline-block;
+  }
+  section.first img {
+    width: 50%;
+    margin: 20px 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .leftFloat {
+    float: left;
+    width: 33%;
+    padding: 20px;
+  }
+  section.first img {
+    width: 33%;
+  }
+}
+/* finished first of first section */
+.two article {
+  background: skyblue;
+}
+.two h2 {
+  text-transform: capitalize;
+}
+
+.user {
+  padding: 25px 0 25px 10px;
+  color: white;
+}
+
+.user img {
+  width: 20%;
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 2px;
+}
+.user img,
+.user .rating {
+  float: left;
+}
+
+.rating {
+  margin-left: 10px;
+}
+.rating p {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+}
+
+.clearBoth {
+  clear: both;
+  color: white;
+  padding: 10px;
+  font-size: 0.8em;
+}
+@media (min-width: 768px) {
+  .two article {
+    width: 47%;
+    margin: 20px 0 20px 12px;
+  }
+
+  .two article img {
+    margin: 0;
+  }
+
+  .two article:first-of-type {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .two article {
+    width: 32%;
+  }
+}
+/* end of second section */
+
+.three {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 0.8em;
+}
+.three h2 {
+  text-transform: capitalize;
+}
+
+.three img {
+  width: 15px;
+  display: inline-block;
+}
+
+.three div {
+  float: left;
+  width: 50%;
+  height: 150px;
+  background-color: royalblue;
+  color: white;
+  padding-top: 30px;
+}
+.three div h3 {
+  text-transform: uppercase;
+}
+
+.three div > * {
+  margin-bottom: 10px;
+}
+
+.three div:nth-of-type(1) {
+  background-color: rgb(72, 247, 188);
+}
+
+.three div:nth-of-type(2) {
+  background-color: violet;
+}
+
+.three div:nth-of-type(2) img {
+  margin: 5px;
+}
+
+.three div:nth-of-type(4) {
+  background-image: url(../assets/images/house.png);
+  background-position: center center;
+  background-size: 100% 150px;
+  background-color: lightblue;
+  background-repeat: no-repeat;
+}
+
+.three iframe {
+  width: 100%;
+  height: 250px;
+}
+
+@media (min-width: 768px) {
+  .three {
+    font-size: 1em;
+  }
+
+  .three div {
+    height: 200px;
+  }
+
+  .three iframe {
+    height: 350px;
+  }
+  .three div:nth-of-type(2) h3 {
+    margin-bottom: 50px;
+  }
+
+  .three div:nth-of-type(2) img {
+    width: 20px;
+    margin: 10px;
+  }
+}
+
+.three div:nth-last-of-type(1) img {
+  width: 15px;
+  margin: 0;
+}
+
+@media (min-width: 1200px) {
+  .three div {
+    width: 25%;
+  }
+
+  .three iframe {
+    height: 500px;
+  }
+}
+/*end of third section */
+.form {
+  width: 95%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.form h2 {
+  text-transform: capitalize;
+  margin-top: 30px;
+}
+.form input,
+.form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.form form input:last-child {
+  border: none;
+  color: white;
+  background: orange;
+  width: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@media (min-width: 768px){
+  .form input {
+    width: 31.9%;
+    float: left;
+    margin-right: 20px;
+  }
+
+  .form input:nth-of-type(3) {
+    margin-right: 0;
+  }
+
+}
+
+@media (min-width: 1200px){
+  .form {
+    width: 80%;
+  }
+
+}
+/* end of form section */
+
+footer {
+  background-color: rgb(46, 45, 45);
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+
+#navBottom {
+  margin: 30px;
+}
+
+footer ul li {
+  display: inline;
+  margin: 10px;
+}

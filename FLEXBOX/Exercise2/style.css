@@ -1,0 +1,38 @@
+.parent2 {
+    height: 500px;
+    width: 960px;
+    margin: 100px auto;
+    display: flex;
+}
+
+.parent2>div {
+ width: 100px;
+ height: 100px;
+ background-color: aquamarine;
+ margin: 10px;
+ display: flex;
+ flex-grow: 1;
+ flex-direction: column;
+}
+
+.first>div {
+    background-color: black;
+    display: flex;
+    flex-grow: 1;
+    margin: 10px;
+    color: white;
+}
+.second>div {
+    background-color: black;
+    display: flex;
+    flex-grow: 1;
+    margin: 10px;
+    color: white;
+}
+.third>div {
+    background-color: black;
+    display: flex;
+    flex-grow: 1;
+    margin: 10px;
+    color: white;
+}
